@@ -44,13 +44,7 @@ export default function Prodotti(){
           
     }
 
-//funzione che mi coinsente di cancellare ul elemento
-    const handleDelete = (id) =>{
-        axios.delete(`http://localhost:3000/prodotti/${id}`)
-        setBlogList((currentBlogList) =>
-          currentBlogList.filter((product) => product.id !== id)
-        )
-    }
+
 
 // mi constente di fare una sola richiesta al BE appena si carica la pagina
     useEffect( fetchProducts , []);
@@ -68,12 +62,7 @@ export default function Prodotti(){
         {blogList.map((item) => {
             return (
                 <div className="card bg-white shadow-md rounded-lg overflow-hidden" key={item.id}>
-                    <button 
-                        onClick={(event) => handleDelete(item.id)} 
-                        className="delete-btn text-red-500 font-bold p-2 rounded-full hover:bg-red-100"
-                    >
-                        ×
-                    </button>
+                   
                     <img src={item.immagine} alt={item.titolo} className="w-full h-48 object-cover"/>
                     <div className="p-4">
                         <div className="card-title text-2xl font-semibold mb-2">{item.titolo}</div>

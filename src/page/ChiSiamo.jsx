@@ -4,9 +4,9 @@ export default function ChiSiamo() {
 <section className="bg-white py-24">
     <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-8">Chi Siamo</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
             
-            <div>
+            <div className="text-center">
                 <p className="text-lg text-gray-700 mb-4">
                     Siamo appassionati di cucina e amiamo condividere le nostre ricette, consigli e trucchi con chiunque voglia migliorare le proprie abilità culinarie. Il nostro team è composto da chef esperti, food blogger e appassionati di cibo, tutti uniti dalla passione per la gastronomia.
                 </p>
@@ -17,7 +17,7 @@ export default function ChiSiamo() {
                     Unisciti a noi in questo viaggio culinario e scopri la gioia di cucinare piatti deliziosi per te e i tuoi cari. Siamo entusiasti di condividere la nostra passione con te!
                 </p>
             </div>
-        </div>
+        
     </div>
 </section>
   
