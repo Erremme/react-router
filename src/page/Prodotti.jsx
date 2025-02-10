@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { Link, NavLink } from "react-router-dom"
 
 
-export default function Prodotti({prodotto}){
+export default function Prodotti(){
 
 // stato del blog list che mi arriva dal BE
    const [blogList , setBlogList ] = useState([])

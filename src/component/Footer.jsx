@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
-        <footer className="bg-gray-800 text-white px-8">
-           <div className="bg-gray-800 text-white py-8"> 
+        <footer className="bg-neutral-800 text-white px-8">
+           <div className="bg-neutral-800 text-white py-8"> 
            <div>
                 <h2 className="text-xl font-bold mb-4">Contatti</h2>
                 <p>Email: info@blogdicucina.com</p>
