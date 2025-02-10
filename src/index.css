@@ -2,5 +2,6 @@
 
 
 .active{
-    color: red;
+    color: gold;
+    border-bottom: 2px solid white;
 }
